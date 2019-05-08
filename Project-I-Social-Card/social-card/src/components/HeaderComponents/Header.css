@@ -1,1 +1,73 @@
 /* All styles for your header Components live here */
+
+/*---------------Header container:-----------------*/
+.header-container {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*---------------<ImageThumbnail />:--------------*/
+
+/*Logo div:*/
+.header-container .logo-div {
+    /* border: 1px solid purple; */
+    width: 10%;
+    height: auto;
+}
+
+/*Logo:*/
+.header-container .logo-div .logo {
+    width: 100%;
+}
+
+/*---------------<HeaderTitle />:----------------*/
+
+/*Lambda School title div:*/
+.header-container .header-title {
+    border: 1px solid blue;
+    width: 89%;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+/*shared title-items class for spacing:*/
+.header-container .header-title .title-items {
+    margin: 2% 2px;
+}
+
+/*Lambda School title:*/
+.header-container .header-title .title {
+
+}
+
+/*@lambdaSchool twitter link:*/
+.header-container .header-title .twitter-link a {
+    color: gray;
+    text-decoration: none;
+}
+
+/*period separating twitter link and date:*/
+/*---->Going to revisit this, not pressing.*/
+/* .header-container .header-title .period {
+
+} */
+
+/*Current date (day and month):*/
+.header-container .header-title .date {
+    color: gray;
+}
+
+/*---------------<HeaderContent />:--------------*/
+
+.header-container .header-content {
+    border: 1px solid gold;
+}
+
+.header-container .header-content .content {
+    font-size: 0.84rem;
+}
+
+/*<Header /> established, just needs fine-tuning.
+<cardContainer /> next!*/
