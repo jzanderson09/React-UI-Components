@@ -1,8 +1,8 @@
 /* All styles for your header Components live here */
 
-/*---------------Header container:-----------------*/
+/*---------------<HeaderContainer />:-------------*/
+
 .header-container {
-    border: 1px solid red;
     display: flex;
     flex-flow: row wrap;
 }
@@ -11,21 +11,23 @@
 
 /*Logo div:*/
 .header-container .logo-div {
-    /* border: 1px solid purple; */
     width: 10%;
     height: auto;
 }
 
 /*Logo:*/
 .header-container .logo-div .logo {
+    padding: 1%;
+    margin: 15% auto 0;
     width: 100%;
+    height: auto;
 }
 
 /*---------------<HeaderTitle />:----------------*/
 
 /*Lambda School title div:*/
 .header-container .header-title {
-    border: 1px solid blue;
+    padding-left: 0.2rem;
     width: 89%;
     display: flex;
     flex-flow: row wrap;
@@ -37,37 +39,29 @@
     margin: 2% 2px;
 }
 
-/*Lambda School title:*/
-.header-container .header-title .title {
-
-}
-
 /*@lambdaSchool twitter link:*/
 .header-container .header-title .twitter-link a {
-    color: gray;
+    color: rgb(206, 206, 206);
     text-decoration: none;
 }
 
-/*period separating twitter link and date:*/
-/*---->Going to revisit this, not pressing.*/
-/* .header-container .header-title .period {
-
-} */
-
 /*Current date (day and month):*/
 .header-container .header-title .date {
-    color: gray;
+    color: rgb(206, 206, 206);
+}
+
+/*period in between @Lambda and date:*/
+.header-container .header-title .period {
+    color: rgb(206, 206, 206);
+    margin-top: 0.39rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
 }
 
 /*---------------<HeaderContent />:--------------*/
 
-.header-container .header-content {
-    border: 1px solid gold;
-}
-
+/*header content text beneath title:*/
 .header-container .header-content .content {
-    font-size: 0.84rem;
+    margin: 0;
+    padding-bottom: 1%;
 }
-
-/*<Header /> established, just needs fine-tuning.
-<cardContainer /> next!*/

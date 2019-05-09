@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 
+import HeaderContent from './HeaderContent';
+
 const HeaderTitle = () => {
     let currentDate = new Date();
     let date = currentDate.getDate();
@@ -12,8 +14,9 @@ const HeaderTitle = () => {
             <h3 className="title-items twitter-link">
                 <a href="https://twitter.com/lambdaschool?lang=en">@lambdaSchool</a>
             </h3>
-            {/* <h3 className="title-items period">.</h3> */}
+            <h3 className="title-items period">.</h3>
             <h3 className="title-items date">{dateString}</h3>
+            <HeaderContent />
         </div>
 
 
