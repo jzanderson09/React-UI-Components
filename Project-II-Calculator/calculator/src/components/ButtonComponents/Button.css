@@ -1,4 +1,4 @@
-.numbers-div {
+.numbers-container {
     height: auto;
     width: 300px;
     border: 1px solid gold;
@@ -29,6 +29,35 @@
     padding-bottom: 3%;
 }
 
-.action-button {
-    width: 100%;
+.action-button-container {
+    margin-left: 1px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
 }
+
+.action-button-container .action-button {
+    width: 60%;
+}
+
+.action-button-container .clear {
+    width: 74.37%;
+    height: 50px;
+    margin-top: -91.8%;
+    margin-left: -1px;
+}
+
+.action-button-container .divide {
+    margin-top: -91.8%;
+    margin-left: -1px;
+    height: 50px;
+}
+
+.action-button-container .zero {
+    width: 74.37%;
+}
+
+/* .action-button-container .equals {
+
+} */

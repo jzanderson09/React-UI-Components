@@ -27,6 +27,7 @@ const App = () => {
     clear: 'clear',
     zero: 0,
     divide: '÷',
+    equals: '=',
 };
 
   return (
