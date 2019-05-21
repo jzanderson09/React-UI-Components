@@ -1,1 +1,43 @@
 /* All styles for your Card Components live here */
+
+/*card-container header:*/
+.card-container {
+    width: 100%;
+}
+
+/*----------------<CardBanner />---------------*/
+/*react img:*/
+.card-container .react {
+    width: 88%;
+    height: 14rem;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    margin-left: 10%;
+}
+
+/*Also applies to card-copy h3 and p from 
+CardContent*/
+.card-container .right-shift {
+    margin-left: 12%;
+}
+
+
+/*----------------<CardContent />--------------*/
+
+/*card-copy div:*/
+.card-container .card-copy {
+    width: 100%;
+}
+
+/*copy-text:*/
+.card-container .card-copy .copy-text {
+    margin-top: -1%;
+    margin-bottom: -1%;
+    font-size: 0.96rem;
+}
+
+/*react-link:*/
+.card-container .card-copy .react-link {
+    color: gray;
+    font-size: 0.85rem;
+}

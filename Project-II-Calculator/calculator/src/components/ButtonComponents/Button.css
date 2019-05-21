@@ -1,0 +1,63 @@
+.numbers-container {
+    height: auto;
+    width: 300px;
+    border: 1px solid gold;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.numbers {
+    width: 24.3%;
+    height: 60px;
+    background: white;
+    color: black;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 3%;
+    margin: 0;
+    cursor: pointer;
+}
+
+.operator {
+    background: rgb(180, 1, 1);
+    color: white;
+}
+
+.minus {
+    font-size: 3em;
+    padding: 0;
+    padding-bottom: 3%;
+}
+
+.action-button-container {
+    margin-left: 1px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.action-button-container .action-button {
+    width: 60%;
+}
+
+.action-button-container .clear {
+    width: 74.37%;
+    height: 50px;
+    margin-top: -91.8%;
+    margin-left: -1px;
+}
+
+.action-button-container .divide {
+    margin-top: -91.8%;
+    margin-left: 1px;
+    height: 50px;
+}
+
+.action-button-container .zero {
+    width: 74.37%;
+}
+
+/* .action-button-container .equals {
+
+} */
